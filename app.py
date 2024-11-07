@@ -135,5 +135,8 @@ def get_recommendations():
     return jsonify(recommendations)
 
 # Run the Flask app
+import os
+
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))  # Get the port from the environment or use 5000 locally
+    app.run(host="0.0.0.0", port=port, debug=True)
