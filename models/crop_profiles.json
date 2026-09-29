@@ -1,0 +1,816 @@
+{
+  "apple": {
+    "N": {
+      "low": 2.0,
+      "high": 35.0,
+      "median": 24.0
+    },
+    "P": {
+      "low": 122.0,
+      "high": 144.0,
+      "median": 136.5
+    },
+    "K": {
+      "low": 196.0,
+      "high": 205.0,
+      "median": 200.0
+    },
+    "temperature": {
+      "low": 21.26,
+      "high": 23.75,
+      "median": 22.63
+    },
+    "humidity": {
+      "low": 90.45,
+      "high": 94.51,
+      "median": 92.42
+    },
+    "ph": {
+      "low": 5.6,
+      "high": 6.29,
+      "median": 5.89
+    },
+    "rainfall": {
+      "low": 103.03,
+      "high": 122.2,
+      "median": 112.98
+    }
+  },
+  "banana": {
+    "N": {
+      "low": 85.0,
+      "high": 117.0,
+      "median": 100.5
+    },
+    "P": {
+      "low": 72.0,
+      "high": 92.1,
+      "median": 81.0
+    },
+    "K": {
+      "low": 45.0,
+      "high": 55.0,
+      "median": 50.0
+    },
+    "temperature": {
+      "low": 25.36,
+      "high": 29.22,
+      "median": 27.44
+    },
+    "humidity": {
+      "low": 76.53,
+      "high": 84.18,
+      "median": 80.22
+    },
+    "ph": {
+      "low": 5.63,
+      "high": 6.33,
+      "median": 5.99
+    },
+    "rainfall": {
+      "low": 91.46,
+      "high": 117.61,
+      "median": 105.01
+    }
+  },
+  "blackgram": {
+    "N": {
+      "low": 21.9,
+      "high": 57.0,
+      "median": 41.0
+    },
+    "P": {
+      "low": 58.0,
+      "high": 78.0,
+      "median": 67.0
+    },
+    "K": {
+      "low": 15.0,
+      "high": 24.0,
+      "median": 19.0
+    },
+    "temperature": {
+      "low": 26.42,
+      "high": 33.86,
+      "median": 29.66
+    },
+    "humidity": {
+      "low": 61.29,
+      "high": 68.78,
+      "median": 65.03
+    },
+    "ph": {
+      "low": 6.6,
+      "high": 7.58,
+      "median": 7.17
+    },
+    "rainfall": {
+      "low": 62.3,
+      "high": 73.6,
+      "median": 68.29
+    }
+  },
+  "chickpea": {
+    "N": {
+      "low": 24.0,
+      "high": 57.1,
+      "median": 39.0
+    },
+    "P": {
+      "low": 57.0,
+      "high": 78.0,
+      "median": 68.0
+    },
+    "K": {
+      "low": 76.0,
+      "high": 85.0,
+      "median": 79.0
+    },
+    "temperature": {
+      "low": 17.3,
+      "high": 20.63,
+      "median": 18.88
+    },
+    "humidity": {
+      "low": 14.71,
+      "high": 19.35,
+      "median": 16.66
+    },
+    "ph": {
+      "low": 6.31,
+      "high": 8.49,
+      "median": 7.36
+    },
+    "rainfall": {
+      "low": 69.15,
+      "high": 90.91,
+      "median": 79.69
+    }
+  },
+  "coconut": {
+    "N": {
+      "low": 3.0,
+      "high": 37.0,
+      "median": 24.0
+    },
+    "P": {
+      "low": 6.0,
+      "high": 29.0,
+      "median": 15.5
+    },
+    "K": {
+      "low": 26.0,
+      "high": 35.0,
+      "median": 31.0
+    },
+    "temperature": {
+      "low": 25.55,
+      "high": 29.21,
+      "median": 27.39
+    },
+    "humidity": {
+      "low": 91.4,
+      "high": 98.64,
+      "median": 94.96
+    },
+    "ph": {
+      "low": 5.57,
+      "high": 6.38,
+      "median": 5.99
+    },
+    "rainfall": {
+      "low": 140.73,
+      "high": 218.01,
+      "median": 172.0
+    }
+  },
+  "coffee": {
+    "N": {
+      "low": 83.9,
+      "high": 117.0,
+      "median": 103.0
+    },
+    "P": {
+      "low": 18.0,
+      "high": 39.0,
+      "median": 29.0
+    },
+    "K": {
+      "low": 26.0,
+      "high": 35.0,
+      "median": 30.0
+    },
+    "temperature": {
+      "low": 23.41,
+      "high": 27.54,
+      "median": 25.66
+    },
+    "humidity": {
+      "low": 52.11,
+      "high": 67.44,
+      "median": 57.65
+    },
+    "ph": {
+      "low": 6.14,
+      "high": 7.29,
+      "median": 6.8
+    },
+    "rainfall": {
+      "low": 122.82,
+      "high": 192.73,
+      "median": 157.77
+    }
+  },
+  "cotton": {
+    "N": {
+      "low": 102.0,
+      "high": 133.0,
+      "median": 117.0
+    },
+    "P": {
+      "low": 37.0,
+      "high": 57.1,
+      "median": 46.0
+    },
+    "K": {
+      "low": 15.0,
+      "high": 24.0,
+      "median": 19.0
+    },
+    "temperature": {
+      "low": 22.45,
+      "high": 25.53,
+      "median": 23.96
+    },
+    "humidity": {
+      "low": 75.87,
+      "high": 84.15,
+      "median": 80.01
+    },
+    "ph": {
+      "low": 6.13,
+      "high": 7.81,
+      "median": 6.84
+    },
+    "rainfall": {
+      "low": 64.98,
+      "high": 93.66,
+      "median": 80.24
+    }
+  },
+  "grapes": {
+    "N": {
+      "low": 6.0,
+      "high": 39.0,
+      "median": 24.0
+    },
+    "P": {
+      "low": 121.9,
+      "high": 142.0,
+      "median": 133.0
+    },
+    "K": {
+      "low": 195.0,
+      "high": 204.0,
+      "median": 201.0
+    },
+    "temperature": {
+      "low": 11.17,
+      "high": 39.04,
+      "median": 23.02
+    },
+    "humidity": {
+      "low": 80.28,
+      "high": 83.48,
+      "median": 81.72
+    },
+    "ph": {
+      "low": 5.62,
+      "high": 6.42,
+      "median": 6.0
+    },
+    "rainfall": {
+      "low": 65.9,
+      "high": 74.04,
+      "median": 69.54
+    }
+  },
+  "jute": {
+    "N": {
+      "low": 63.0,
+      "high": 91.0,
+      "median": 78.0
+    },
+    "P": {
+      "low": 38.0,
+      "high": 57.0,
+      "median": 46.0
+    },
+    "K": {
+      "low": 35.0,
+      "high": 44.0,
+      "median": 40.0
+    },
+    "temperature": {
+      "low": 23.28,
+      "high": 26.57,
+      "median": 24.97
+    },
+    "humidity": {
+      "low": 72.23,
+      "high": 87.89,
+      "median": 79.47
+    },
+    "ph": {
+      "low": 6.13,
+      "high": 7.32,
+      "median": 6.71
+    },
+    "rainfall": {
+      "low": 153.73,
+      "high": 194.07,
+      "median": 175.59
+    }
+  },
+  "kidneybeans": {
+    "N": {
+      "low": 5.9,
+      "high": 35.1,
+      "median": 22.0
+    },
+    "P": {
+      "low": 57.9,
+      "high": 79.0,
+      "median": 67.0
+    },
+    "K": {
+      "low": 15.9,
+      "high": 24.0,
+      "median": 20.0
+    },
+    "temperature": {
+      "low": 16.51,
+      "high": 23.79,
+      "median": 19.92
+    },
+    "humidity": {
+      "low": 18.72,
+      "high": 24.68,
+      "median": 21.35
+    },
+    "ph": {
+      "low": 5.56,
+      "high": 5.95,
+      "median": 5.75
+    },
+    "rainfall": {
+      "low": 67.64,
+      "high": 139.81,
+      "median": 107.4
+    }
+  },
+  "lentil": {
+    "N": {
+      "low": 3.0,
+      "high": 36.1,
+      "median": 16.5
+    },
+    "P": {
+      "low": 58.9,
+      "high": 78.1,
+      "median": 68.0
+    },
+    "K": {
+      "low": 15.0,
+      "high": 23.1,
+      "median": 19.0
+    },
+    "temperature": {
+      "low": 19.59,
+      "high": 28.68,
+      "median": 24.95
+    },
+    "humidity": {
+      "low": 60.85,
+      "high": 69.0,
+      "median": 64.09
+    },
+    "ph": {
+      "low": 6.17,
+      "high": 7.67,
+      "median": 6.95
+    },
+    "rainfall": {
+      "low": 37.07,
+      "high": 53.05,
+      "median": 46.55
+    }
+  },
+  "maize": {
+    "N": {
+      "low": 61.9,
+      "high": 95.1,
+      "median": 76.0
+    },
+    "P": {
+      "low": 37.0,
+      "high": 59.0,
+      "median": 48.5
+    },
+    "K": {
+      "low": 16.0,
+      "high": 24.0,
+      "median": 20.0
+    },
+    "temperature": {
+      "low": 18.64,
+      "high": 25.7,
+      "median": 22.84
+    },
+    "humidity": {
+      "low": 57.8,
+      "high": 72.81,
+      "median": 65.3
+    },
+    "ph": {
+      "low": 5.72,
+      "high": 6.8,
+      "median": 6.26
+    },
+    "rainfall": {
+      "low": 64.74,
+      "high": 107.24,
+      "median": 83.47
+    }
+  },
+  "mango": {
+    "N": {
+      "low": 2.9,
+      "high": 37.0,
+      "median": 21.0
+    },
+    "P": {
+      "low": 17.0,
+      "high": 37.0,
+      "median": 27.5
+    },
+    "K": {
+      "low": 26.0,
+      "high": 34.0,
+      "median": 30.0
+    },
+    "temperature": {
+      "low": 27.69,
+      "high": 35.38,
+      "median": 31.3
+    },
+    "humidity": {
+      "low": 46.16,
+      "high": 53.75,
+      "median": 50.28
+    },
+    "ph": {
+      "low": 4.76,
+      "high": 6.78,
+      "median": 5.74
+    },
+    "rainfall": {
+      "low": 90.3,
+      "high": 98.87,
+      "median": 94.91
+    }
+  },
+  "mothbeans": {
+    "N": {
+      "low": 4.9,
+      "high": 36.0,
+      "median": 22.0
+    },
+    "P": {
+      "low": 37.0,
+      "high": 58.0,
+      "median": 48.5
+    },
+    "K": {
+      "low": 16.0,
+      "high": 24.0,
+      "median": 20.0
+    },
+    "temperature": {
+      "low": 25.31,
+      "high": 31.03,
+      "median": 28.37
+    },
+    "humidity": {
+      "low": 43.65,
+      "high": 61.59,
+      "median": 53.67
+    },
+    "ph": {
+      "low": 4.16,
+      "high": 9.08,
+      "median": 7.22
+    },
+    "rainfall": {
+      "low": 33.81,
+      "high": 70.5,
+      "median": 51.18
+    }
+  },
+  "mungbean": {
+    "N": {
+      "low": 4.0,
+      "high": 35.1,
+      "median": 22.0
+    },
+    "P": {
+      "low": 37.0,
+      "high": 59.0,
+      "median": 47.0
+    },
+    "K": {
+      "low": 15.0,
+      "high": 24.0,
+      "median": 20.0
+    },
+    "temperature": {
+      "low": 27.41,
+      "high": 29.73,
+      "median": 28.44
+    },
+    "humidity": {
+      "low": 81.13,
+      "high": 89.12,
+      "median": 85.95
+    },
+    "ph": {
+      "low": 6.36,
+      "high": 7.13,
+      "median": 6.7
+    },
+    "rainfall": {
+      "low": 38.08,
+      "high": 58.01,
+      "median": 49.03
+    }
+  },
+  "muskmelon": {
+    "N": {
+      "low": 83.0,
+      "high": 117.0,
+      "median": 100.0
+    },
+    "P": {
+      "low": 7.0,
+      "high": 26.0,
+      "median": 18.0
+    },
+    "K": {
+      "low": 46.0,
+      "high": 54.1,
+      "median": 50.0
+    },
+    "temperature": {
+      "low": 27.42,
+      "high": 29.79,
+      "median": 28.85
+    },
+    "humidity": {
+      "low": 90.53,
+      "high": 94.55,
+      "median": 92.11
+    },
+    "ph": {
+      "low": 6.08,
+      "high": 6.7,
+      "median": 6.35
+    },
+    "rainfall": {
+      "low": 21.02,
+      "high": 28.71,
+      "median": 24.72
+    }
+  },
+  "orange": {
+    "N": {
+      "low": 4.9,
+      "high": 37.0,
+      "median": 19.0
+    },
+    "P": {
+      "low": 7.0,
+      "high": 28.1,
+      "median": 16.0
+    },
+    "K": {
+      "low": 6.0,
+      "high": 14.0,
+      "median": 10.0
+    },
+    "temperature": {
+      "low": 11.9,
+      "high": 32.33,
+      "median": 22.9
+    },
+    "humidity": {
+      "low": 90.31,
+      "high": 94.36,
+      "median": 91.96
+    },
+    "ph": {
+      "low": 6.25,
+      "high": 7.8,
+      "median": 7.02
+    },
+    "rainfall": {
+      "low": 102.12,
+      "high": 117.66,
+      "median": 110.68
+    }
+  },
+  "papaya": {
+    "N": {
+      "low": 34.0,
+      "high": 68.0,
+      "median": 49.0
+    },
+    "P": {
+      "low": 48.0,
+      "high": 68.0,
+      "median": 60.0
+    },
+    "K": {
+      "low": 46.0,
+      "high": 54.0,
+      "median": 50.0
+    },
+    "temperature": {
+      "low": 24.86,
+      "high": 42.41,
+      "median": 33.26
+    },
+    "humidity": {
+      "low": 90.55,
+      "high": 94.45,
+      "median": 92.68
+    },
+    "ph": {
+      "low": 6.55,
+      "high": 6.97,
+      "median": 6.74
+    },
+    "rainfall": {
+      "low": 62.21,
+      "high": 234.53,
+      "median": 139.0
+    }
+  },
+  "pigeonpeas": {
+    "N": {
+      "low": 5.0,
+      "high": 37.0,
+      "median": 20.0
+    },
+    "P": {
+      "low": 57.0,
+      "high": 77.0,
+      "median": 69.5
+    },
+    "K": {
+      "low": 16.9,
+      "high": 24.0,
+      "median": 20.0
+    },
+    "temperature": {
+      "low": 19.49,
+      "high": 35.13,
+      "median": 28.93
+    },
+    "humidity": {
+      "low": 34.68,
+      "high": 63.47,
+      "median": 47.2
+    },
+    "ph": {
+      "low": 4.72,
+      "high": 7.05,
+      "median": 5.69
+    },
+    "rainfall": {
+      "low": 100.54,
+      "high": 191.07,
+      "median": 154.31
+    }
+  },
+  "pomegranate": {
+    "N": {
+      "low": 4.0,
+      "high": 38.1,
+      "median": 18.0
+    },
+    "P": {
+      "low": 7.9,
+      "high": 27.1,
+      "median": 20.0
+    },
+    "K": {
+      "low": 36.0,
+      "high": 44.0,
+      "median": 40.0
+    },
+    "temperature": {
+      "low": 18.91,
+      "high": 24.64,
+      "median": 22.35
+    },
+    "humidity": {
+      "low": 86.08,
+      "high": 94.26,
+      "median": 89.91
+    },
+    "ph": {
+      "low": 5.77,
+      "high": 7.06,
+      "median": 6.43
+    },
+    "rainfall": {
+      "low": 103.57,
+      "high": 111.28,
+      "median": 107.59
+    }
+  },
+  "rice": {
+    "N": {
+      "low": 62.9,
+      "high": 95.0,
+      "median": 80.0
+    },
+    "P": {
+      "low": 36.0,
+      "high": 58.0,
+      "median": 47.0
+    },
+    "K": {
+      "low": 36.0,
+      "high": 44.0,
+      "median": 40.0
+    },
+    "temperature": {
+      "low": 20.87,
+      "high": 26.47,
+      "median": 23.73
+    },
+    "humidity": {
+      "low": 80.35,
+      "high": 84.05,
+      "median": 82.19
+    },
+    "ph": {
+      "low": 5.38,
+      "high": 7.48,
+      "median": 6.36
+    },
+    "rainfall": {
+      "low": 191.6,
+      "high": 283.98,
+      "median": 233.12
+    }
+  },
+  "watermelon": {
+    "N": {
+      "low": 83.0,
+      "high": 118.0,
+      "median": 99.0
+    },
+    "P": {
+      "low": 7.0,
+      "high": 27.0,
+      "median": 17.5
+    },
+    "K": {
+      "low": 45.0,
+      "high": 55.0,
+      "median": 50.5
+    },
+    "temperature": {
+      "low": 24.41,
+      "high": 26.75,
+      "median": 25.6
+    },
+    "humidity": {
+      "low": 80.99,
+      "high": 89.14,
+      "median": 85.03
+    },
+    "ph": {
+      "low": 6.11,
+      "high": 6.88,
+      "median": 6.47
+    },
+    "rainfall": {
+      "low": 42.83,
+      "high": 57.99,
+      "median": 50.67
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "task": "crop_recommendation",
+  "dataset": {
+    "name": "Crop Recommendation Dataset (Kaggle, Atharva Ingle)",
+    "rows": 2200,
+    "classes": 22,
+    "features": [
+      "N",
+      "P",
+      "K",
+      "temperature",
+      "humidity",
+      "ph",
+      "rainfall"
+    ],
+    "split": "80/20 stratified hold-out; 5-fold stratified CV on the training split"
+  },
+  "models": {
+    "random_forest": {
+      "cv_accuracy_mean": 0.994318,
+      "cv_accuracy_std": 0.004754,
+      "test_accuracy": 0.995455,
+      "test_macro_f1": 0.995452,
+      "per_class_f1": {
+        "apple": 1.0,
+        "banana": 1.0,
+        "blackgram": 0.9744,
+        "chickpea": 1.0,
+        "coconut": 1.0,
+        "coffee": 1.0,
+        "cotton": 1.0,
+        "grapes": 1.0,
+        "jute": 0.9756,
+        "kidneybeans": 1.0,
+        "lentil": 1.0,
+        "maize": 0.9756,
+        "mango": 1.0,
+        "mothbeans": 1.0,
+        "mungbean": 1.0,
+        "muskmelon": 1.0,
+        "orange": 1.0,
+        "papaya": 1.0,
+        "pigeonpeas": 1.0,
+        "pomegranate": 1.0,
+        "rice": 0.9744,
+        "watermelon": 1.0
+      }
+    },
+    "logistic_regression": {
+      "cv_accuracy_mean": 0.968182,
+      "cv_accuracy_std": 0.006577,
+      "test_accuracy": 0.972727,
+      "test_macro_f1": 0.972464,
+      "per_class_f1": {
+        "apple": 1.0,
+        "banana": 1.0,
+        "blackgram": 0.9756,
+        "chickpea": 1.0,
+        "coconut": 0.9756,
+        "coffee": 1.0,
+        "cotton": 0.9756,
+        "grapes": 1.0,
+        "jute": 0.9091,
+        "kidneybeans": 1.0,
+        "lentil": 0.8947,
+        "maize": 0.9744,
+        "mango": 0.9756,
+        "mothbeans": 0.9,
+        "mungbean": 1.0,
+        "muskmelon": 1.0,
+        "orange": 0.9744,
+        "papaya": 0.9744,
+        "pigeonpeas": 1.0,
+        "pomegranate": 1.0,
+        "rice": 0.8649,
+        "watermelon": 1.0
+      }
+    }
+  },
+  "permutation_importance": [
+    {
+      "feature": "humidity",
+      "importance": 0.3273,
+      "std": 0.0196
+    },
+    {
+      "feature": "N",
+      "importance": 0.2264,
+      "std": 0.0208
+    },
+    {
+      "feature": "rainfall",
+      "importance": 0.1741,
+      "std": 0.0096
+    },
+    {
+      "feature": "K",
+      "importance": 0.1682,
+      "std": 0.0096
+    },
+    {
+      "feature": "P",
+      "importance": 0.1123,
+      "std": 0.0138
+    },
+    {
+      "feature": "ph",
+      "importance": 0.0107,
+      "std": 0.0044
+    },
+    {
+      "feature": "temperature",
+      "importance": 0.0064,
+      "std": 0.0039
+    }
+  ],
+  "trained_at": "2026-09-28T18:06:39+00:00",
+  "versions": {
+    "python": "3.11.15",
+    "scikit_learn": "1.8.0",
+    "numpy": "2.4.4"
+  }
+}
